@@ -22,18 +22,27 @@ class Programador extends Curriculo {
                 <DadosPessoais />
                 <Formacao /> 
                 <div>
-                    <h2>Linguagens e Tecnologias</h2>
+                    <h2>Linguagens</h2>
                     <ul>
-                        <li><img src='/piton.png' width="20px" /> Python - básico</li>
+                        <li><img src='/piton.png' width="20px" /> Python - Básico</li>
                         <li>Javascript - Básico</li>
                         <li>HTML - Intermediário</li>
                         <li>CSS - Básico</li>
+                        <li>PHP - Básico</li>
+                    </ul>
+                    <h2>Frameworks e Tecnologias</h2>
+                    <ul>
+                      <li>Cypress - Intermediário</li>
+                      <li>Jest - Básico</li>
+                      <li>Chai - Básico</li>
+                      <li>Vue.Js - Básico</li>
+                      <li>NodeJs - Básico</li>
                     </ul>
                 </div>
                 <CursosLivres />
                 <OutrasCertificacoes />
-                <Footer />
             </article>
+            <Footer />
             <BootstrapJs />
             </section>
             
