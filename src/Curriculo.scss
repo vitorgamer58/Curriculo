@@ -1,13 +1,16 @@
-body p h1 h2 h3 h4 a {
+ body p, h1, h2, h3, h4, a {
     font-family: 'Roboto', sans-serif;
 }
+
 ul li {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
 body p {
     font-size: 20px;
+    margin-bottom: 0;
 }
+
 
 article {
     padding: 30px;
@@ -20,7 +23,11 @@ h2 {
     font-size: 23px;
 }
 .cert {
-    padding: 20px 72px 16px 24px;
+    padding: 10px 10px 10px 10px;
+}
+
+.img-cert {
+    width: 10%;
 }
 
 .cert ul {
@@ -42,6 +49,20 @@ footer {
     font-size: 22px;
 }
 
+footer img {
+    width: 15%;
+}
+
 .italico {
     font-style: italic;
+}
+
+@media screen and (max-width: 480px) {
+    .img-cert {
+        width: 25%;
+    }
+
+    footer img {
+        width: 45%;
+    }
 }

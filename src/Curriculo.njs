@@ -89,16 +89,16 @@ class Curriculo extends Nullstack {
       <div>
         <h2>Outras certificações</h2>
         <div class="cert">
-          <img src="/anbima-logo.png" width='9%' />
+          <img src="/anbima-logo.png" class="img-cert" />
           <ul>
             <li>CPA 20</li>
             <li><Link href="https://drive.google.com/file/u/1/d/1nBijmV0cxavHjhFinLS1neyVPQnKddXY/view?usp=sharing">Certificado</Link></li>
           </ul>
         </div>
         <div class="cert">
-          <img src="/mcgraw.png" width='9%' />
+          <img src="/mcgraw.png" class="img-cert" />
           <ul>
-            <li>Nível A1 de Inglês - Buusu</li>
+            <li>Nível A1 de Inglês</li>
             <li><Link href="https://api.busuu.com/anon/certificates/f5595a4b65126906a06b5aee0037643a">Certificado</Link></li>
           </ul>
         </div>
@@ -151,7 +151,7 @@ class Curriculo extends Nullstack {
     return (
       <footer>
         <Link href="https://nullstack.app/pt-br/waifu">
-          <img src="/nulla-chan.webp" alt="Nulla-Chan: waifu oficial do Nullstack" width="15%" align="middle" />
+          <img src="/nulla-chan.webp" alt="Nulla-Chan: waifu oficial do Nullstack" align="middle" />
         </Link>
         <p>Feito com amor usando Nullstack</p>
       </footer>)
